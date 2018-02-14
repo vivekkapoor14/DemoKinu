@@ -19,6 +19,7 @@ class AppDelegate: UIResponder {
     func testMethod() {
         //This method need to be merged in master
         //Second comment...
+        //My Comment...
     }
     
 }
