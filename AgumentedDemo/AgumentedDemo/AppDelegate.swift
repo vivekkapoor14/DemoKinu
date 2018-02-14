@@ -16,6 +16,10 @@ class AppDelegate: UIResponder {
         return UIApplication.shared.delegate as! AppDelegate
     }
 
+    func testMethod() {
+        
+    }
+    
 }
 
 extension AppDelegate : UIApplicationDelegate {
