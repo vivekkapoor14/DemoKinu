@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder {
-
+    var testVar:Int = 0
     var window: UIWindow?
     static var shared:AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
