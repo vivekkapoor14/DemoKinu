@@ -41,6 +41,14 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="2TN-HI-Gvr"/>
                                     <constraint firstAttribute="height" constant="100" id="bZ1-t2-1cj"/>
+                                  </constraints>
+                                <state key="normal" title="Button"/>
+                                </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9j-tf-1Zi">
+                                <rect key="frame" x="118" y="140" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="WLL-mH-X9i"/>
+                                    <constraint firstAttribute="width" constant="100" id="d8l-tW-g4y"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -49,6 +57,9 @@
                         <constraints>
                             <constraint firstItem="EKX-qD-H28" firstAttribute="centerX" secondItem="909-TW-QaM" secondAttribute="centerX" id="xeg-4Y-cfh"/>
                             <constraint firstItem="EKX-qD-H28" firstAttribute="top" secondItem="909-TW-QaM" secondAttribute="topMargin" constant="8" id="zqy-zo-xwd"/>
+                            <constraint firstItem="E9j-tf-1Zi" firstAttribute="leading" secondItem="909-TW-QaM" secondAttribute="leading" constant="118" id="B02-LZ-6Hc"/>
+                            <constraint firstAttribute="trailing" secondItem="E9j-tf-1Zi" secondAttribute="trailing" constant="157" id="Zaa-Vo-dWI"/>
+                            <constraint firstItem="E9j-tf-1Zi" firstAttribute="top" secondItem="909-TW-QaM" secondAttribute="top" constant="140" id="v5K-di-QAG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IX5-4w-2i8"/>
                     </view>

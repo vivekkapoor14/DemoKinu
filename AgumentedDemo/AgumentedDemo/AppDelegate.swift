@@ -17,7 +17,7 @@ class AppDelegate: UIResponder {
     }
 
     func testMethod() {
-        /* Amit Aswal Work... I did good work*/
+        /* Amit Aswal Work... There is some problem in this work*/
     }
     
 }
