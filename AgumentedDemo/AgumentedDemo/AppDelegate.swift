@@ -29,7 +29,7 @@ extension AppDelegate : UIApplicationDelegate {
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
-        
+        /* Raman changes....*/
     }
     
     func applicationDidEnterBackground(_ application: UIApplication) {
