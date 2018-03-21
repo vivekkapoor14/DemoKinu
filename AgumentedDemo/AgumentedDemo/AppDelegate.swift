@@ -10,7 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder {
-
+//vivek dev branch
     var window: UIWindow?
     static var shared:AppDelegate {
         return UIApplication.shared.delegate as! AppDelegate
@@ -18,6 +18,11 @@ class AppDelegate: UIResponder {
 
     func testMethod() {
         //This method need to be merged in master
+    }
+    
+    func testing()
+    {
+        
     }
     
 }
